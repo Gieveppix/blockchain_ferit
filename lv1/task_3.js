@@ -20,14 +20,8 @@ function decryptMessage(privateKey, encryptedMessage) {
   return decrypted;
 }
 
-const { publicKey, privateKey } = generateKeyPair();
-console.log("Public key: ", publicKey);
-console.log("Private key: ", privateKey);
-
-
-const message = "FERIT";
-const encryptedMessage = encryptMessage(publicKey, message);
-console.log("Encrypted message: ", encryptedMessage);
-
-const decryptedMessage = decryptMessage(privateKey, encryptedMessage);
-console.log("Decoded message: ", decryptedMessage);
+module.exports = {
+  generateKeyPair,
+  encryptMessage,
+  decryptMessage,
+};

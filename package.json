@@ -1,0 +1,22 @@
+{
+  "name": "blockchain_ferit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Marko Milanovic",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "menu": "node ./index.js",
+    "lab1": "node ./lv1/index.js",
+    "lab2": "node ./lv2/index.js"
+  },
+  "dependencies": {
+    "base-x": "^4.0.0",
+    "base58-universal": "^2.0.0",
+    "node-rsa": "^1.1.1",
+    "prompt-sync": "^4.2.0",
+    "prompt-sync-history": "^1.0.1",
+    "sha256": "^0.2.0"
+  }
+}
